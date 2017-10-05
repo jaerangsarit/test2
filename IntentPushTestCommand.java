@@ -17,12 +17,7 @@ package org.onosproject.cli.net;
 
 import com.google.common.collect.Lists;
 import org.apache.karaf.shell.commands.Argument;
-import org.apache.karaf.shell.commands.Command;
-import org.apache.karaf.shell.commands.Option;
-import org.onlab.packet.Ethernet;
-import org.onlab.packet.MacAddress;
-import org.onosproject.cli.AbstractShellCommand;
-import org.onosproject.net.ConnectPoint;
+
 import org.onosproject.net.DeviceId;
 import org.onosproject.net.PortNumber;
 import org.onosproject.net.flow.DefaultTrafficSelector;
